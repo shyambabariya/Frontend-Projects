@@ -1,0 +1,94 @@
+* {
+  padding: 0px;
+}
+.main-box {
+  height: 800px;
+  width: 800px;
+  border: 4px solid black;
+  margin: auto;
+}
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: space-between;
+}
+.red-box,
+.green-box,
+.yellow-box,
+.blue-box{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.inner-box {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+table {
+  border-collapse: collapse;
+}
+.table-one{
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+}
+td{
+  border: 2px solid black;
+}
+.table-two{
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+}
+/* Row 1 componets */
+.red-box {
+  background-color: red;
+}
+.red {
+  background-color: red;
+}
+.green-box {
+  background-color: green;
+}
+.green {
+  background-color: green;
+}
+/* Row 2 Components */
+.middle-box {
+  height: 200px;
+  width: 200px;
+}
+.home{
+  border-left: 101px solid green;
+  border-right: 101px solid blue;
+  border-bottom: 101px solid yellow;
+  border-top: 101px solid red;
+}
+
+/* Row 3 Components */
+.yellow-box {
+  background-color: yellow;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue-box {
+  background-color: blue;
+}
+.blue {
+  background-color: blue;
+}
