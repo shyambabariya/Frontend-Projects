@@ -1,6 +1,10 @@
 * {
   padding: 0px;
 }
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
 .main-box {
   height: 800px;
   width: 800px;
@@ -73,10 +77,10 @@ td{
   width: 200px;
 }
 .home{
-  border-left: 101px solid green;
-  border-right: 101px solid blue;
-  border-bottom: 101px solid yellow;
-  border-top: 101px solid red;
+  border-left: 100px solid green;
+  border-right: 100px solid blue;
+  border-bottom: 100px solid yellow;
+  border-top: 100px solid red;
 }
 
 /* Row 3 Components */
