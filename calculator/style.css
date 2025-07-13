@@ -1,0 +1,45 @@
+* {
+  margin: 0 auto;
+  padding: 0%;
+  font-family: sans-serif;
+}
+.container {
+  height: 420px;
+  width: 280px;
+  background-color: grey;
+  margin-top: 70px;
+}
+#btn{
+    height: 60px;
+    width: 260px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: left;
+    background-color: white;
+}
+.option {
+    height: 330px;
+    width: 260px;
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.opt {
+    height: 60px;
+    width: 60px;
+    background-color: #22c3c3;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px white;
+    color: white;
+    font-size: 1.3rem;
+}
+.opt:hover{
+    background-color: #1db6e0;
+}
+.opt:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(0.1px);
+}
+
