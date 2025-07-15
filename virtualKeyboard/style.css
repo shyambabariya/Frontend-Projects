@@ -1,0 +1,59 @@
+.container{
+    height: 350px;
+    width: 960px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 15px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    box-shadow: -1px -1px 2px rgba(128, 128, 128,0.3);
+    display: flex;
+    align-items: center;
+    animation: ConAni 5s ease 0s 1 normal;
+}
+
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 4px; 
+}
+.one{
+    padding: 15px 25px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#tab{
+    padding: 10px 35px;
+}
+#enter{
+    padding: 10px 35px;
+}
+#space{
+    padding: 15px 130px;
+}
+
+.one:hover{
+    background-color: limegreen;
+}
+
+.one:active{
+    transform: translateY(2px);
+    box-shadow: 1px 1px 1px 0.5px black;
+}
+
+@keyframes ConAni{
+    0%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.9;
+    }
+}
