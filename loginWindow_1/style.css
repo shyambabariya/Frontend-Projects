@@ -1,0 +1,40 @@
+body{
+    background-image: url(bg.jpg);
+    background-size:cover;
+}
+.main{
+    margin: auto;
+    margin-top: 100px;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0,0.6);
+    border-radius: 10px;
+    padding: 50px;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.details input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.main a{
+    color: white;
+}
+.agreement{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+button:hover{
+    background-color: skyblue;
+}
