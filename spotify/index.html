@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="icon" href="./assests/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="brand">
+        <img src="./assests/logo.png" class="logo_sp" alt="" />
+      </div>
+      <div class="home-search">
+        <a href="#"><i class="fa-solid fa-house"></i></a>
+        <form class="nosubmit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input
+            class="nosubmit"
+            type="search"
+            placeholder="What do you want to play?"
+          />
+        </form>
+      </div>
+
+      <div class="links">
+        <ul class="nav-link1">
+          <a href="">Premium</a>
+          <a href="">Support</a>
+          <a href="">Download</a>
+        </ul>
+        <ul class="nav-link2">
+          <a href=""><div class="line-above"></div></a>
+          <a href=""><i class="fa-regular fa-circle-down"></i>Install App</a>
+          <a href="">Signup</a>
+        </ul>
+        <div class="login-btn">
+          <button class="badge nav-item hide login-btn">Log in</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="nav-options" style="opacity: 1"></div>
+      <div class="nav-options"></div> -->
+
+    <div class="main">
+      <div class="sidebar">
+        <div class="library">
+          <div class="options">
+            <div class="lib-options nav-options">
+              <img src="./assests/library_icon.png" alt="" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="navbar">
+          <div class="for-back-btn">
+            <img src="./assests/backward_icon.png" alt="" />
+            <img src="./assests/forward_icon.png" class="hide" alt="" />
+          </div>
+          <div class="nav-main-btn">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item install-btn">
+              <i class="fa-regular fa-circle-down"></i>Install App
+            </button>
+            <button class="badge nav-item user">
+              <i class="fa-regular fa-user"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="albums">
+          <h2>Recently Played</h2>
+          <div class="albums-container">
+            <div class="album">
+              <img src="./assests/card1img.jpeg" class="album-img" alt="" />
+              <p class="album-title">Top 50 - Global</p>
+              <p class="album-info">
+                Your daily updates of the most playes tracks...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="albums-container">
+          <div class="album">
+            <img src="./assests/card2img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+
+          <div class="album">
+            <img src="./assests/card3img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+
+          <div class="album">
+            <img src="./assests/card4img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+
+          <div class="album">
+            <img src="./assests/card5img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+
+          <div class="album">
+            <img src="./assests/card5img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+        </div>
+
+        <h2>Featured Charts</h2>
+        <div class="albums-container">
+          <div class="album">
+            <img src="./assests/card3img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+
+          <div class="album">
+            <img src="./assests/card3img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+          <div class="album">
+            <img src="./assests/card3img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+          <div class="album">
+            <img src="./assests/card3img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+          <div class="album">
+            <img src="./assests/card3img.jpeg" class="album-img" alt="" />
+            <p class="album-title">Top 50 - Global</p>
+            <p class="album-info">
+              Your daily updates of the most playes tracks...
+            </p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="music-player">
+        <div class="current-album">
+          <img src="./Home work assets/album_picture.jpeg" />
+          <div class="song">
+            <p class="title">Daylight <br /></p>
+            <p class="info">David kunsher</p>
+          </div>
+          <img
+            src="./Home work assets/album_icon1.png"
+            style="height: 1.3rem"
+          />
+          <img
+            src="./Home work assets/album_icon2.png"
+            style="height: 1.9rem"
+          />
+        </div>
+
+        <div class="player">
+          <div class="player-controls">
+            <img src="./assests/player_icon1.png" class="player-control-icon" />
+            <img src="./assests/player_icon2.png" class="player-control-icon" />
+            <img
+              src="./assests/player_icon3.png"
+              class="player-control-icon playpause"
+              style="opacity: 1; height: 2rem"
+            />
+            <img src="./assests/player_icon4.png" class="player-control-icon" />
+            <img src="./assests/player_icon5.png" class="player-control-icon" />
+          </div>
+
+          <div class="playback">
+            <span class="curr-time">00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progress-bar"
+              step="1"
+            />
+            <span class="end-time">3:33</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <img src="./Home work assets/controls_icon1.png" />
+          <img src="./Home work assets/controls_icon2.png" />
+          <img
+            src="./Home work assets/controls_icon3.png"
+            style="height: 1.5rem"
+          />
+          <img
+            src="./Home work assets/controls_icon4.png"
+            style="height: 1rem"
+          />
+          <img src="./Home work assets/controls_icon5.png" />
+          <input type="range" class="volume-bar" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
