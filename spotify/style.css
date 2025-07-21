@@ -47,20 +47,68 @@ a {
   /* height: 100px; */
   background-color: #000;
   border-radius: 1rem;
+  padding: 0.2rem 0.5rem 0rem 0.5rem;
   display: flex;
-  /* flex-direction: column;*/
+  align-items: center;
   justify-content: space-between; 
+  /* flex-direction: column;*/
   /* padding: 0.5rem 0.75rem; */
 }
 .brand img {
-  height: 2.5rem;
+  height: 2.2rem;
   /* padding-top: 0.4rem; */
+  padding: 0.4rem 1rem 0rem 1rem;
 }
 
 .home-search {
   display: flex;
   justify-content: space-between;
+  gap: 0.5rem;
 }
+
+
+
+.search{
+
+	width: 30rem;
+
+	/* height: 20%; */
+
+	background-color: #121212;
+
+	border-radius: 3rem;
+
+	display: flex;
+
+	align-items: center;
+
+	/* padding: 1.5rem; */
+
+}
+
+.search i {
+
+	font-size: 1.5rem;
+
+	color: #777;
+
+}
+
+.search input{
+  width: 70%;
+  border-radius: 3rem;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #121212;
+  color: #fff;
+
+
+}
+
+
+
 
 /* input.nosubmit { */
   /* border: 1px solid #555; */
@@ -69,14 +117,14 @@ a {
   /* background: transparent url("") no-repeat 13px center; */
 /* } */
 
-input[type="search"] {
+/* input[type="search"] {
   padding: 0.5rem;
   border-radius: 25rem;
   margin-right: 0.5rem;
   width: 25rem;
   font-size: 1.2rem;
   background-color: #121212;
-}
+} */
 
 .home-search i {
   font-size: 1.5rem;
@@ -109,16 +157,18 @@ input[type="search"] {
 
 .links{
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .nav-link1, .nav-link2{
   display:flex;
   justify-content: flex-start;
+  align-items: center;
 }
 .nav-link1 a{
   list-style: none;
   margin-right: 1rem;
+}
+.nav-link2 i{
+  margin-right:0.5rem ;
 }
 .nav-link2 a{
   list-style: none;
@@ -127,27 +177,26 @@ input[type="search"] {
 .nav-link2{
   font-size: 0.8rem;
 }
-.nav-link2 i{
-  margin-right:0.5rem ;
-}
-
 .line-above{
-  height: 100%;
-  margin: 2rem, 3rem;
+  height: 2rem;
+  margin-right:1rem;
   background-color: #fff;
   border: 1px solid white;
 }
 .login-btn button {
-  height:100%;
+  height:80%;
+  font: 2.5rem;
   padding-right: 2rem;
   padding-left: 2rem;
 }
-
+.login-btn{
+ font: 2.5rem;
+}
 .library {
   background-color: #121212;
   border-radius: 1rem;
   height: 100%;
-  margin-top: 0.75rem;
+  /* margin-top: 0.75rem; */
   padding: 0.3rem 0.75rem;
 }
 
