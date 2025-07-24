@@ -43,7 +43,7 @@
         </ul>
         <div class="line-above"></div>
         <ul class="nav-link2">
-          <a href=""><i class="fa-regular fa-circle-down"></i>Install App</a>
+          <a href="" class="hide"><i class="fa-regular fa-circle-down"></i>Install App</a>
           <a href="">Signup</a>
         </ul>
         <div class="login-btn">
@@ -292,30 +292,76 @@
         </div>
       </div>
 
-      <div class="music-player">
+
+
+       <div class="music-player">
+            <div class="song-bar">
+                <div class="song-infos">
+                    <div class="image-container">
+                        <img src="./assests/album_picture.jpeg" alt="" />
+                    </div>
+                    <div class="song-description">
+                        <p class="song-title">
+                            7-years old
+                        </p>
+                        <p class="artist-title">Lukas Graham</p>
+                    </div>
+                </div>
+                <div class="music-icons">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-compress"></i>
+                </div>
+            </div>
+            <div class="progress-controller">
+                <div class="control-buttons">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step "></i>
+                    <i class="fa-solid fa-circle-play playpause"  style="opacity: 1; font-size: 2rem"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="progress-container">
+                    <span>0:49</span>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span>3:15</span>
+                </div>
+            </div>
+
+            <div class="other-features">
+               <img src="./assests/controls_icon1.png" />
+          <img src="./assests/controls_icon2.png" />
+          <img src="./assests/controls_icon3.png" style="height: 1.2rem" />
+                <i class="fas fa-list-ul"></i>
+               <i class="fa-solid fa-computer"></i>
+                <div class="volume-bar">
+                    <i class="fas fa-volume-down"></i>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- <div class="music-player">
         <div class="current-album">
           <img src="./assests/album_picture.jpeg" />
           <div class="song">
-            <p class="title">Daylight <br /></p>
+            <p class="title">7 - years old <br /></p>
             <p class="title">David kunsher</p>
           </div>
-          <div class="music-player-icons">
-           <i class="fa-regular fa-heart"></i>
-          <i class="fa-solid fa-display"></i>
-          </div>
+            <i class="fa-regular fa-heart m-icon"></i>
+          <i class="fa-solid fa-tv m-icon"></i>
         </div>
 
         <div class="player">
           <div class="player-controls">
-           <i class="fa-solid fa-shuffle"></i>
-           <i class="fa-solid fa-backward-step"></i>
-            <img
-              src="./assests/player_icon3.png"
-              class="player-control-icon playpause"
-              style="opacity: 1; height: 2rem"
-            />
-            <i class="fa-solid fa-forward-step"></i>
-            <img src="./assests/player_icon5.png" class="player-control-icon" />
+           <i class="fa-solid fa-shuffle m-icon"></i>
+           <i class="fa-solid fa-backward-step m-icon"></i>
+            <i class="fa-solid fa-circle-play m-icon playpause"  style="opacity: 1; font-size: 2rem"></i>
+            <i class="fa-solid fa-forward-step m-icon"></i>
+           <i class="fa-solid fa-repeat m-icon"></i>
           </div>
 
           <div class="playback">
@@ -335,11 +381,11 @@
           <img src="./assests/controls_icon1.png" />
           <img src="./assests/controls_icon2.png" />
           <img src="./assests/controls_icon3.png" style="height: 1.5rem" />
-         <i class="fa-solid fa-computer"></i>
-          <i class="fa-solid fa-volume-low"></i>
+         <i class="fa-solid fa-computer m-icon"></i>
+          <i class="fa-solid fa-volume-low m-icon"></i>
           <input type="range" class="volume-bar" />
         </div>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
