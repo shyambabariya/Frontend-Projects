@@ -587,7 +587,7 @@ i:hover{
 .other-features .img:hover{
   opacity: 1;
 }
-.volume-bar{
+/* .volume-bar{
     display: flex;
     align-items: center;
     gap: 0.7rem;
@@ -597,4 +597,4 @@ i:hover{
 }
 .volume-bar .progress-bar:hover .progress::after{
     --size: .8rem;
-}
+} */
