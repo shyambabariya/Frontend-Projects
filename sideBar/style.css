@@ -178,7 +178,7 @@ span {
   }
 }
 
-@keyframes CardAni{
+/* @keyframes CardAni{
     100%{
         transform: rotateY(0deg);
     }
@@ -191,7 +191,7 @@ span {
     100%{
         transform: rotateX(0deg)
     }
-}
+} */
 
 @keyframes rotateA{
     0%{
